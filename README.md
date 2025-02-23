@@ -42,3 +42,46 @@ woit.pg@gmail.com
 
 
 
+
+MoveMate
+Description:
+MoveMate is a mobile application that utilizes device movement data to recognize the mode of transportation. The app analyzes sensor data (accelerometer and gyroscope) and classifies whether the user is walking, driving a car, or using another form of transport. It encourages users to reduce CO2 emissions by choosing more environmentally friendly transportation options.
+
+Features:
+
+Automatic detection of transportation mode based on sensor data
+Simple and intuitive user interface
+Provides challenges for extra points and rewards users based on their chosen routes and modes of travel
+Technologies Used:
+
+React Native – Mobile app development
+PHP
+Canva
+Installation and Running:
+Clone the repository and install dependencies:
+git clone https://github.com/Vladan11111/MoveMate.git
+cd MoveMate
+npm install
+npm start
+npx react-native run-android
+
+How It Works:
+
+When a user signs up, their account is linked to a point system. Based on the number of points collected, a ranking list is created, where the top-ranking users receive rewards. These rewards are defined by admins, such as transportation providers and other organizations that can register in the app.
+The app offers daily challenges that provide additional points.
+The device tracks the user's movement and, using its sensors, determines how they are traveling. Routes are scored accordingly—walking earns the most points, while traveling by car earns the least.
+Team:
+
+Dejan Stanojević
+Vladan Vukota
+Damjan Drobac
+Iva Dragojević
+Future Plans:
+
+Integrating an AI model for motion recognition
+Expanding the solution to other platforms
+Contact:
+For any questions or collaboration inquiries, feel free to contact us via GitHub or email.
+GitHub
+Email: woit.pg@gmail.com
+
